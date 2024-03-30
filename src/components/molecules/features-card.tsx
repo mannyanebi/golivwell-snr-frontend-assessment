@@ -19,7 +19,7 @@ function FeatureCard({
       <div
         className={`${iconBgColor} h-[4.5rem] w-[4.5rem] rounded-[20px] p-3 text-center flex items-center justify-center`}
       >
-        <img src={iconImg} alt="icon" />
+        <img src={iconImg} alt={title} />
       </div>
       <h3 className="text-2xl font-bold">{title}</h3>
       <p className="text-sm font-light w-10/12">{description}</p>

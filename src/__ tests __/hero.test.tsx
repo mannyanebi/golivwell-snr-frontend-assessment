@@ -1,4 +1,3 @@
-import '@testing-library/jest-dom'
 import { render, screen } from '@testing-library/react';
 import Hero from '../components/organisms/hero';
 
@@ -10,7 +9,6 @@ describe('Hero component', () => {
 
   test('renders Create Engaging Landing Pages heading', () => {
     const headingElement = screen.getByText(/Create Engaging Landing Pages/i);
-    console.log("Heading Element",headingElement);
     expect(headingElement).toBeInTheDocument();
   });
 

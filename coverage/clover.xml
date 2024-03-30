@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1711813254744" clover="3.2.0">
+  <project timestamp="1711813254744" name="All files">
+    <metrics statements="135" coveredstatements="47" conditionals="3" coveredconditionals="2" methods="34" coveredmethods="14" elements="172" coveredelements="63" complexity="0" loc="135" ncloc="135" packages="3" files="22" classes="22"/>
+    <package name="atoms">
+      <metrics statements="11" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="1"/>
+      <file name="button.tsx" path="/Users/mannyanebi/code/company/golivwell/golivwell-snr-frontend-assessment/src/components/atoms/button.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="72" count="27" type="stmt"/>
+        <line num="88" count="4" type="stmt"/>
+      </file>
+      <file name="footer-icon.tsx" path="/Users/mannyanebi/code/company/golivwell/golivwell-snr-frontend-assessment/src/components/atoms/footer-icon.tsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+      </file>
+      <file name="section-footer-icon.tsx" path="/Users/mannyanebi/code/company/golivwell/golivwell-snr-frontend-assessment/src/components/atoms/section-footer-icon.tsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+      </file>
+      <file name="text-input.tsx" path="/Users/mannyanebi/code/company/golivwell/golivwell-snr-frontend-assessment/src/components/atoms/text-input.tsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="molecules">
+      <metrics statements="31" coveredstatements="17" conditionals="3" coveredconditionals="2" methods="11" coveredmethods="7"/>
+      <file name="customer-review-card.tsx" path="/Users/mannyanebi/code/company/golivwell/golivwell-snr-frontend-assessment/src/components/molecules/customer-review-card.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="19" count="15" type="stmt"/>
+        <line num="32" count="75" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+      </file>
+      <file name="features-card.tsx" path="/Users/mannyanebi/code/company/golivwell/golivwell-snr-frontend-assessment/src/components/molecules/features-card.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+      </file>
+      <file name="metrics-card.tsx" path="/Users/mannyanebi/code/company/golivwell/golivwell-snr-frontend-assessment/src/components/molecules/metrics-card.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="25" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+      </file>
+      <file name="pricing-card.tsx" path="/Users/mannyanebi/code/company/golivwell/golivwell-snr-frontend-assessment/src/components/molecules/pricing-card.tsx">
+        <metrics statements="8" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="69" count="0" type="stmt"/>
+      </file>
+      <file name="section-container.tsx" path="/Users/mannyanebi/code/company/golivwell/golivwell-snr-frontend-assessment/src/components/molecules/section-container.tsx">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="16" count="11" type="stmt"/>
+        <line num="20" count="11" type="stmt"/>
+        <line num="24" count="11" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="32" count="2" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+      </file>
+      <file name="team-member-card.tsx" path="/Users/mannyanebi/code/company/golivwell/golivwell-snr-frontend-assessment/src/components/molecules/team-member-card.tsx">
+        <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="organisms">
+      <metrics statements="93" coveredstatements="25" conditionals="0" coveredconditionals="0" methods="19" coveredmethods="6"/>
+      <file name="clients-section.tsx" path="/Users/mannyanebi/code/company/golivwell/golivwell-snr-frontend-assessment/src/components/organisms/clients-section.tsx">
+        <metrics statements="10" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+      </file>
+      <file name="features-section.tsx" path="/Users/mannyanebi/code/company/golivwell/golivwell-snr-frontend-assessment/src/components/organisms/features-section.tsx">
+        <metrics statements="9" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+      </file>
+      <file name="first-cta-section.tsx" path="/Users/mannyanebi/code/company/golivwell/golivwell-snr-frontend-assessment/src/components/organisms/first-cta-section.tsx">
+        <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+      </file>
+      <file name="footer.tsx" path="/Users/mannyanebi/code/company/golivwell/golivwell-snr-frontend-assessment/src/components/organisms/footer.tsx">
+        <metrics statements="7" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+      </file>
+      <file name="get-in-touch-section.tsx" path="/Users/mannyanebi/code/company/golivwell/golivwell-snr-frontend-assessment/src/components/organisms/get-in-touch-section.tsx">
+        <metrics statements="14" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="71" count="0" type="stmt"/>
+      </file>
+      <file name="header.tsx" path="/Users/mannyanebi/code/company/golivwell/golivwell-snr-frontend-assessment/src/components/organisms/header.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="5" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+      </file>
+      <file name="hero.tsx" path="/Users/mannyanebi/code/company/golivwell/golivwell-snr-frontend-assessment/src/components/organisms/hero.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+      </file>
+      <file name="last-cta-section.tsx" path="/Users/mannyanebi/code/company/golivwell/golivwell-snr-frontend-assessment/src/components/organisms/last-cta-section.tsx">
+        <metrics statements="7" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+      </file>
+      <file name="metrics-section.tsx" path="/Users/mannyanebi/code/company/golivwell/golivwell-snr-frontend-assessment/src/components/organisms/metrics-section.tsx">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="24" count="6" type="stmt"/>
+        <line num="35" count="24" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+      </file>
+      <file name="pricing-section.tsx" path="/Users/mannyanebi/code/company/golivwell/golivwell-snr-frontend-assessment/src/components/organisms/pricing-section.tsx">
+        <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+      </file>
+      <file name="satisfied-customers-section.tsx" path="/Users/mannyanebi/code/company/golivwell/golivwell-snr-frontend-assessment/src/components/organisms/satisfied-customers-section.tsx">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="34" count="5" type="stmt"/>
+        <line num="44" count="15" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+      </file>
+      <file name="team-section.tsx" path="/Users/mannyanebi/code/company/golivwell/golivwell-snr-frontend-assessment/src/components/organisms/team-section.tsx">
+        <metrics statements="9" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
