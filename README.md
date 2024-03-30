@@ -8,6 +8,10 @@ In addition to successfully translating the provided Figma designs into a functi
 
 - Comprehensive Unit Testing: I wrote comprehensive unit tests for components (atoms, molecules and organisms) and utility functions using Jest and React Testing Library, ensuring code reliability and maintainability.
 
+  See test coverage report
+  <img width="1674" alt="Golivwell Test Coverage Report" src="https://github.com/mannyanebi/golivwell-snr-frontend-assessment/assets/25439000/4d065179-5b55-475a-a943-d1c76d864fa6">
+
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
