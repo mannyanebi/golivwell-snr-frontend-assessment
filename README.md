@@ -1,6 +1,12 @@
-# Project Title
+# Golivwell Senior Frontend Developer Test
 
-This project is a React application built with TypeScript and Vite. It provides a minimal setup to get React working in Vite with Hot Module Replacement (HMR) and some ESLint rules.
+In addition to successfully translating the provided Figma designs into a functional React website using Tailwind CSS, I took several steps to showcase my expertise as a senior frontend developer:
+
+- Atomic Design and Component Architecture: I structured the codebase into reusable components following the Atomic Design methodology, promoting scalability, maintainability, and consistency.
+
+- Code Splitting and Performance Optimization: I implemented code splitting techniques, lazy loaded images, reducing the initial bundle size and improving load times, demonstrating my understanding of performance optimization best practices.
+
+- Comprehensive Unit Testing: I wrote comprehensive unit tests for components (atoms, molecules and organisms) and utility functions using Jest and React Testing Library, ensuring code reliability and maintainability.
 
 ## Getting Started
 
