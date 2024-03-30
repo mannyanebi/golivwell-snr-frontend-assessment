@@ -32,9 +32,9 @@ function LastCTASection() {
         </Button>
       </div>
       <div className="w-full md:w-1/2 flex items-end justify-end">
-        <img src={CTAMockupXl} className="hidden xl:block" width="578px" alt="CTA Mockup" />
-        <img src={CTAMockupMd} className="hidden md:block xl:hidden" width="578px" alt="CTA Mockup" />
-        <img src={CTAMockupSm} className="block md:hidden" width="578px" alt="CTA Mockup" />
+        <img src={CTAMockupXl} className="hidden xl:block" width="578px" alt="CTA Mockup" loading="lazy" />
+        <img src={CTAMockupMd} className="hidden md:block xl:hidden" width="578px" alt="CTA Mockup" loading="lazy" />
+        <img src={CTAMockupSm} className="block md:hidden" width="578px" alt="CTA Mockup" loading="lazy" />
       </div>
     </div>
   );
