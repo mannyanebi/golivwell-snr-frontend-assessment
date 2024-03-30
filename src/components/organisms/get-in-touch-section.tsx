@@ -31,8 +31,8 @@ function GetInTouchSection() {
         Contact us for quick and friendly support.
       </p>
 
-      <div className="flex flex-row space-x-4 items-center justify-center">
-        <div className="w-1/2">
+      <div className="flex md:flex-col md:space-y-4 xl:space-y-0 xl:flex-row xl:space-x-4 items-center justify-center">
+        <div className="md:w-full xl:w-1/2">
           <div className="flex flex-col space-y-4 items-start justify-start">
             <div className="flex flex-row space-x-4 items-center justify-center">
               <img src={PhoneCall} alt="phone-call" />
@@ -53,7 +53,7 @@ function GetInTouchSection() {
             </div>
           </div>
         </div>
-        <div className="w-1/2">
+        <div className="md:w-full xl:w-1/2">
           <div className="flex flex-col space-y-4 items-start justify-start">
             {textInputs.map((input, index) => (
               <TextInput key={index} {...input} />

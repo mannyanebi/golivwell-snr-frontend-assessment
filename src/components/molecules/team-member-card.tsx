@@ -11,7 +11,7 @@ export type TeamMemberProps = {
 
 function TeamMember({ name, image, role }: TeamMemberProps) {
   return (
-    <div className="w-[370px] min-h-[380px] bg-white group-hover:bg-primary drop-shadow-sm group-hover:text-white shadow-sm rounded-[20px] text-center flex flex-col space-y-3 items-start justify-center">
+    <div className="md:w-[213px] xl:w-[370px] md:min-h-[345px] xl:min-h-[380px] bg-white group-hover:bg-primary drop-shadow-sm group-hover:text-white shadow-sm rounded-[20px] text-center flex flex-col space-y-3 items-start justify-center">
       <img src={image} alt="SarahKFaceCard" />
       <div className="flex flex-col w-full space-y-3 py-2 border-b border-b-gray-300 items-center justify-center">
         <h4 className="text-xl text-center font-semibold">{name}</h4>

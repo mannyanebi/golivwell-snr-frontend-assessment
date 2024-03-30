@@ -15,7 +15,7 @@ function FeatureCard({
   description,
 }: FeatureCardProps) {
   return (
-    <div className="w-[370px] h-[380px] bg-white shadow-sm rounded-[20px] text-center p-7 flex flex-col space-y-7 items-center justify-center">
+    <div className="w-full xl:w-[370px] h-[380px] bg-white shadow-sm rounded-[20px] text-center p-7 flex flex-col space-y-7 items-center justify-center">
       <div
         className={`${iconBgColor} h-[4.5rem] w-[4.5rem] rounded-[20px] p-3 text-center flex items-center justify-center`}
       >

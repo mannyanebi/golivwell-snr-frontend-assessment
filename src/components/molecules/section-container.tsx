@@ -13,11 +13,11 @@ type SectionHeaderDescProps = {
 };
 
 function SectionHeader({ children }: SectionHeaderProps) {
-  return <h1 className="text-4xl font-display font-bold">{children}</h1>;
+  return <h1 className="text-4xl font-display font-bold text-center">{children}</h1>;
 }
 
 function SectionHeaderDesc({ children }: SectionHeaderDescProps) {
-  return <p className="text-sm">{children}</p>;
+  return <p className="text-sm text-center">{children}</p>;
 }
 
 function SectionContainer({ children }: SectionContainerProps) {

@@ -8,11 +8,11 @@ function FirstCTASection() {
     <SectionContainer>
       <div className="flex flex-row justify-between items-center space-x-8">
         <img src={VisualsRounded} className="w-1/2" alt="Visuals" />
-        <div className="flex flex-col space-y-4 w-1/2 pl-12 justify-center items-start">
-          <h1 className="text-5xl font-display font-bold">
+        <div className="flex flex-col space-y-4 w-1/2 pl-6 xl:pl-12 justify-center items-start">
+          <h1 className="text-3xl xl:text-5xl font-display font-bold">
             Get Landing Page UI Kit Today!
           </h1>
-          <p className="text-lg">
+          <p className="text-md xl:text-lg">
             Break the Figma limits and explore the endless possibilities with
             Anima.
           </p>

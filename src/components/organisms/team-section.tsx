@@ -30,7 +30,7 @@ function TeamSection() {
         Get to know the faces behind the scenes and learn about the values that
         drive us.
       </SectionContainer.HeaderDesc>
-      <div className="grid grid-cols-3 gap-20 items-center justify-center p-6">
+      <div className="grid grid-cols-3 md:gap-12 xl:gap-20 items-center justify-center p-6">
         {teamMembers.map((teamMember) => (
           <TeamMember key={teamMember.name.toLowerCase()} {...teamMember} />
         ))}

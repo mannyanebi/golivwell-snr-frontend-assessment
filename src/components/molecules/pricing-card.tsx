@@ -32,7 +32,7 @@ function PricingCard({
 }: PricingCardProps) {
   return (
     <div className="group">
-      <div className="w-[370px] h-[380px] bg-white group-hover:bg-primary drop-shadow-sm group-hover:text-white shadow-sm rounded-[20px] text-center p-7 flex flex-col space-y-3 items-start justify-center">
+      <div className="w-[40rem] xl:w-[370px] h-[380px] bg-white group-hover:bg-primary drop-shadow-sm group-hover:text-white shadow-sm rounded-[20px] text-center p-7 flex flex-col space-y-3 items-start justify-center">
         <h4 className="text-lg font-light">{title}</h4>
         <h3 className="text-5xl font-extrabold">
           {price} <span className="text-sm font-semibold">/ month</span>

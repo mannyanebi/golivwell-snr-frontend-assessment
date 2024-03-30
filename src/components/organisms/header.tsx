@@ -13,13 +13,24 @@ function Header() {
           </p>
         </div>
         <div className="flex flex-row items-center space-x-8">
-          <Button variant="link" size="2xl" roundedSize="2xl">
+          <Button
+            className="hidden xl:flex"
+            variant="link"
+            size="2xl"
+            roundedSize="2xl"
+          >
             Contact
           </Button>
-          <Button variant="light" size="2xl" roundedSize="2xl">
+          <Button
+            className="hidden md:flex"
+            variant="light"
+            size="2xl"
+            roundedSize="2xl"
+          >
             How it works
           </Button>
           <Button
+            className="hidden xl:flex"
             variant="primary"
             size="2xl"
             roundedSize="2xl"

@@ -30,7 +30,7 @@ function PricingSection() {
         Find the perfect plan for your business with our flexible pricing
         options.
       </SectionContainer.HeaderDesc>
-      <div className="grid grid-cols-3 gap-20 items-center justify-center p-6">
+      <div className="grid grid-cols-1 xl:grid-cols-3 gap-10 xl:gap-20 items-center justify-center p-6">
         {pricings.map((pricing) => (
           <PricingCard key={pricing.title.toLowerCase()} {...pricing} />
         ))}
