@@ -6,7 +6,7 @@ import FooterIcon from "../atoms/footer-icon";
 
 function Footer() {
   return (
-    <div className="flex h-14 w-full py-12 px-6 bg-[#2D2D2D] text-white flex-row justify-between items-center">
+    <div className="flex h-14 w-full py-12 px-14 bg-[#2D2D2D] text-white flex-row justify-between items-center">
       <p>© 2023 Anima’s Landing Page Ui Kit. </p>
       <div className="flex flex-row space-x-4 items-center justify-center">
         <FooterIcon icon={Youtube} />
