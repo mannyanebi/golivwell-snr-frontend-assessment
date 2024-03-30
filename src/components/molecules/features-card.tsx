@@ -1,7 +1,7 @@
 import Button from "../atoms/button";
 import ArrowRight from "../../assets/icons/ArrowRight.svg"
 
-type FeatureCardProps = {
+export type FeatureCardProps = {
   iconImg: string;
   iconBgColor: string;
   title: string;

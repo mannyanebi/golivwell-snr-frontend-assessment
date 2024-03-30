@@ -1,10 +1,10 @@
-import FeatureCard from "../molecules/features-card";
+import FeatureCard, { FeatureCardProps } from "../molecules/features-card";
 import SectionContainer from "../molecules/section-container";
 import BoundingBox from "../../assets/icons/BoundingBox.svg";
 import MagicWand from "../../assets/icons/MagicWand.svg";
 import Confetti from "../../assets/icons/Confetti.svg";
 
-const features = [
+const features: FeatureCardProps[] = [
   {
     iconImg: MagicWand,
     iconBgColor: "bg-[#FF6250]/20",
@@ -36,7 +36,7 @@ function FeaturesSection() {
         These are just a few features you’ll get using Anima Landing Page Ui
         Kit.
       </SectionContainer.HeaderDesc>
-      <div className="grid grid-cols-3 gap-8 items-center justify-center p-6">
+      <div className="grid grid-cols-3 gap-20 items-center justify-center p-6">
         {features.map((feature, index) => (
           <FeatureCard key={index} {...feature} />
         ))}

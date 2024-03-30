@@ -13,7 +13,7 @@ type SectionHeaderDescProps = {
 };
 
 function SectionHeader({ children }: SectionHeaderProps) {
-  return <h1 className="text-4xl font-display font-semibold">{children}</h1>;
+  return <h1 className="text-4xl font-display font-bold">{children}</h1>;
 }
 
 function SectionHeaderDesc({ children }: SectionHeaderDescProps) {
@@ -22,7 +22,7 @@ function SectionHeaderDesc({ children }: SectionHeaderDescProps) {
 
 function SectionContainer({ children }: SectionContainerProps) {
   return (
-    <div className="flex flex-col space-y-8 py-8 items-center justify-center">
+    <div className="flex flex-col space-y-8 py-16 items-center justify-center">
       {children}
     </div>
   );
