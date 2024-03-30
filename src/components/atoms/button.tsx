@@ -1,5 +1,6 @@
 import { VariantProps, cva } from "class-variance-authority";
 import React from "react";
+import { tailwindClassesMerger } from "../../lib/utils";
 
 const buttonVariants = cva("", {
   variants: {
@@ -10,9 +11,38 @@ const buttonVariants = cva("", {
       warning: "text-white bg-warning",
       success: "text-white bg-success",
       info: "text-white bg-info",
-      light: "text-white bg-light",
+      light: "text-primary bg-[#E5F4F2]",
       dark: "text-white bg-dark",
-      link: "text-primary bg-transparent",
+      link: "text-primary font-semibold bg-transparent",
+      outline: "text-primary bg-transparent border-2 bg-white border-primary",
+    },
+    size: {
+      sm: "w-20 h-8",
+      md: "w-24 h-10",
+      lg: "w-32 h-12",
+      xl: "w-40 h-14",
+      "2xl": "w-48 h-16",
+      "3xl": "w-56 h-20",
+      full: "w-full h-16",
+    },
+    textSize: {
+      xs: "text-xs",
+      sm: "text-sm",
+      base: "text-base",
+      lg: "text-lg",
+      xl: "text-xl",
+      "2xl": "text-2xl",
+      "3xl": "text-3xl",
+    },
+    roundedSize: {
+      none: "",
+      sm: "rounded-sm",
+      md: "rounded-md",
+      lg: "rounded-lg",
+      xl: "rounded-xl",
+      "2xl": "rounded-2xl",
+      "3xl": "rounded-3xl",
+      full: "rounded-full",
     },
   },
 });
@@ -22,17 +52,31 @@ export interface ButtonProps
     VariantProps<typeof buttonVariants> {
   isLoading?: boolean;
   children: React.ReactNode;
-  onClick: () => void;
+  onClick?: () => void;
   leftSection?: React.ReactNode;
   rightSection?: React.ReactNode;
-  roundedSize?: "sm" | "md" | "lg" | "xl" | "full";
 }
 
-function Button({ children, onClick, leftSection, rightSection }: ButtonProps) {
+function Button({
+  children,
+  onClick,
+  leftSection,
+  rightSection,
+  isLoading,
+  roundedSize,
+  variant,
+  size,
+  textSize,
+  className,
+}: ButtonProps) {
   return (
     <button
       onClick={onClick}
-      className="flex items-center justify-center px-4 py-2 text-base font-medium text-white bg-primary rounded-md shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary"
+      disabled={isLoading}
+      className={tailwindClassesMerger(
+        "flex items-center justify-center px-4 py-2 text-base font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary",
+        buttonVariants({ variant, roundedSize, size, textSize, className })
+      )}
     >
       {leftSection}
       {children}

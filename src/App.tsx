@@ -1,10 +1,18 @@
 import "./App.css";
+import ClientsSection from "./components/organisms/clients-section";
+import FeaturesSection from "./components/organisms/features-section";
+import Header from "./components/organisms/header";
+import Hero from "./components/organisms/hero";
 
 function App() {
   return (
     <>
-    <h1 className="font-body font-bold text-4xl bg-red-500">Hello World</h1>
-    {/* <Button /> */}
+      <div className="px-10 font-body">
+        <Header />
+        <Hero />
+        <ClientsSection />
+        <FeaturesSection />
+      </div>
     </>
   );
 }

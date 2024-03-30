@@ -22,12 +22,12 @@
   },
   "path": {
     "@/*": ["src/*"],
-    "@atoms/*": ["src/components/atoms/*"],
-    "@components/*": ["src/components/*"],
-    "@molecules/*": ["src/components/molecules/*"],
-    "@organisms/*": ["src/components/organisms/*"],
-    "@utils/*": ["src/lib/utils/*"],
-    "@assets/*": ["src/assets/*"]
+    "@atoms/*": ["./src/components/atoms/*"],
+    "@components/*": ["./src/components/*"],
+    "@molecules/*": ["./src/components/molecules/*"],
+    "@organisms/*": ["./src/components/organisms/*"],
+    "@utils/*": ["./src/lib/utils/*"],
+    "@assets/*": ["./src/assets/*"]
   },
   "include": ["src"],
   "exclude": ["node_modules"],
