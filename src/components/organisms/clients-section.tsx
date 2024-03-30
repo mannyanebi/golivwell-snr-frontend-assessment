@@ -40,7 +40,7 @@ const clients = [
 
 function ClientsSection() {
   return (
-    <div className="grid grid-cols-6 gap-4 items-center justify-center px-6 py-12">
+    <div className="grid grid-cols-3 md:grid-cols-6 gap-4 items-center justify-center px-6 py-12">
       {clients.map((client) => (
         <img className="mx-auto" key={client.name} src={client.image} alt={client.alt} />
       ))}

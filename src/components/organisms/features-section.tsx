@@ -36,7 +36,7 @@ function FeaturesSection() {
         These are just a few features you’ll get using Anima Landing Page Ui
         Kit.
       </SectionContainer.HeaderDesc>
-      <div className="grid grid-cols-1 xl:grid-cols-3 gap-10 xl:gap-20 items-center justify-center p-6">
+      <div className="grid grid-cols-1 xl:grid-cols-3 gap-10 xl:gap-20 items-center justify-center p-3 md:p-6">
         {features.map((feature, index) => (
           <FeatureCard key={index} {...feature} />
         ))}

@@ -5,10 +5,10 @@ import Button from "../atoms/button";
 function Header() {
   return (
     <div>
-      <div className="flex justify-between items-center py-4">
+      <div className="flex justify-center md:justify-between items-center py-4">
         <div className="flex flex-row text-xl items-center space-x-2">
           <img src={Logo} alt="Logo" />
-          <p className="font-bold">
+          <p className="text-center md:text-left font-bold">
             Landing<span className="font-normal">Page</span>
           </p>
         </div>

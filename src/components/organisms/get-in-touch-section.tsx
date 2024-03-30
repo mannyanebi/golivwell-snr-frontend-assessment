@@ -24,15 +24,15 @@ const textInputs: TextInputProps[] = [
 
 function GetInTouchSection() {
   return (
-    <div className="flex flex-col space-y-6 p-16 my-24 rounded-2xl bg-white">
+    <div className="flex flex-col space-y-6 p-8 md:p-16 my-24 rounded-2xl bg-white">
       <h1 className="text-3xl font-display font-bold">Let’s get in touch!</h1>
       <p className="font-light">
         Got questions about the Landing Page UI Kit? Our team is here to help.
         Contact us for quick and friendly support.
       </p>
 
-      <div className="flex md:flex-col md:space-y-4 xl:space-y-0 xl:flex-row xl:space-x-4 items-center justify-center">
-        <div className="md:w-full xl:w-1/2">
+      <div className="flex flex-col space-y-4 xl:space-y-0 xl:flex-row xl:space-x-4 items-center justify-center">
+        <div className="w-full xl:w-1/2">
           <div className="flex flex-col space-y-4 items-start justify-start">
             <div className="flex flex-row space-x-4 items-center justify-center">
               <img src={PhoneCall} alt="phone-call" />
@@ -53,7 +53,7 @@ function GetInTouchSection() {
             </div>
           </div>
         </div>
-        <div className="md:w-full xl:w-1/2">
+        <div className="w-full xl:w-1/2">
           <div className="flex flex-col space-y-4 items-start justify-start">
             {textInputs.map((input, index) => (
               <TextInput key={index} {...input} />

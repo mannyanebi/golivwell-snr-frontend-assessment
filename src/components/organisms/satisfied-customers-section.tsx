@@ -39,7 +39,7 @@ function SatisfiedCustomersSection() {
       <SectionContainer.HeaderDesc>
         See how our landing page ui kit is making an impact.
       </SectionContainer.HeaderDesc>
-      <div className="grid grid-cols-1 xl:grid-cols-3 gap-10 xl:gap-20 items-center justify-center p-6">
+      <div className="grid grid-cols-1 xl:grid-cols-3 gap-7 md:gap-10 xl:gap-20 items-center justify-center p-3 md:p-6">
         {reviews.map((review) => (
           <CustomerReviewCard key={review.name.toLowerCase()} {...review} />
         ))}

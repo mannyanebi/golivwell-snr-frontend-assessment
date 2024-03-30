@@ -15,7 +15,7 @@ import TeamSection from "./components/organisms/team-section";
 function App() {
   return (
     <>
-      <div className="px-10 font-body">
+      <div className="px-5 md:px-10 font-body">
         <Header />
         <Hero />
         <ClientsSection />

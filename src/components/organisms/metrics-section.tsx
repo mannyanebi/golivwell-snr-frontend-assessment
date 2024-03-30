@@ -30,7 +30,7 @@ function MetricsSection() {
         Our metrics component gives you the inside scoop on your success and
         helps you stay on top of your game in style.
       </SectionContainer.HeaderDesc>
-      <div className="grid grid-cols-4 gap-20 items-center justify-center p-6">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-10 md:gap-20 items-center justify-center p-3 md:p-6">
         {metrics.map((metric) => (
           <MetricCard key={metric.value.toLowerCase()} {...metric} />
         ))}
